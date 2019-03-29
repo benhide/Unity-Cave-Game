@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GridCube
+  - Cave
+  - MapBuilder
+  - Digger
+  - GridCubes
+  - UI
+  - MinimapCamera
+  - PlayButton
+  - FontButton
+  - CharacterButton
+  - GameDataManager
+  - SelectCharacterButton
+  - MainMenu
+  - Monster
+  - Objectives
+  - Pickup
+  - Key
+  - Chest
+  - Gamemode description
+  - ColourButton
+  - StartButton
+  - BackButton
+  - NameInputField1
+  - NameInputField2
+  - NameInputField3
+  - MenuController
+  - ScreenFade
+  - CubeParticleSystems
+  - Undefined
+  - MaleIcons
+  - FemaleIcons
+  - Monsters
+  - HealthBar
+  - Controls
+  - StartMenu
+  - Items
+  - SFXs
+  - OldMiner
+  - RedCVDButton
+  - GreenCVDButton
+  - BlueCVDButton
+  - BlueYellowButton
+  - RedGreenButton
+  - Health
+  - Civillian
+  - PlayerNameMneu
+  - GameCompleteMenu
+  - PlayerScoreMenu
+  - LevelChanger
+  - SFXsExtra
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

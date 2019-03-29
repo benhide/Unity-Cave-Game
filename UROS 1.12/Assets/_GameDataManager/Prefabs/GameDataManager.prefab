@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1834401689463140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4457920141546270}
+  - component: {fileID: 114184109820255614}
+  - component: {fileID: 114712791658998078}
+  m_Layer: 0
+  m_Name: GameDataManager
+  m_TagString: GameDataManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4457920141546270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834401689463140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114184109820255614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834401689463140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4d9172b4c17dd0469270f6bbe9a3805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: 
+  gameTime: 0
+  playerHealth: 0
+  playerScore: 0
+  genderInitial: 0
+  genderSelected: 0
+  playerPositionsList: []
+  playerTNTStatsList: []
+  playerHealthPickupStatsList: []
+  selectedFontSize: 1
+  selectedColourScheme: 0
+  selectedCVDColourScheme: 1
+  numberOfTotalCubes: 0
+  numberOfRockCubes: 0
+  numberOfCrystalCubes: 0
+  numberOfCubesDestroyed: 0
+  numberOfCubesDestroyedRock: 0
+  numberOfCubesDestroyedCrystal: 0
+  pickupsTotal: 0
+  pickupsCollected: 0
+  chestsTotal: 0
+  chestsOpened: 0
+  keysTotal: 0
+  keysCollected: 0
+  monstersTotal: 0
+  monstersBasic: 0
+  monstersJuicy: 0
+  monstersKilledTotal: 0
+  monstersKilledBasic: 0
+  monstersKilledJuicy: 0
+  questNames: []
+  questsNumber: 0
+  questStatsList: []
+  questOldMinerPosition: {x: 0, y: 0, z: 0}
+  civillianType: 0
+  civillianStats:
+    position: {x: 0, y: 0, z: 0}
+    type: 0
+    saved: 0
+    killed: 0
+    savedKilledTime: 0
+  civillianPosition: {x: 0, y: 0, z: 0}
+  cubePositionsDestroyed: []
+  cubePositionsStart: []
+  cubePositionsEnd: []
+  monsterKilledStatsBasicList: []
+  monsterKilledStatsJuicyList: []
+  listPickupStats: []
+  listChestStats: []
+  listKeyStats: []
+--- !u!114 &114712791658998078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834401689463140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11e296820498664ea42796a3e7c9173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    url: gametest-d8c8a.firebaseio.com
+    apiKey: frL3BQXIBETm0ZjZZw1MD96jteGSn62KDNVclJjE
+    path: CaveGame

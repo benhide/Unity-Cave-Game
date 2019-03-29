@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 095a15b132907124d8638b09fffb0e32
+timeCreated: 1530778342
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - openCubeMaterial: {fileID: 2100000, guid: eac187e34d5769f43a7f4cc210e580ac, type: 2}
+  - edgeCubeMaterial: {fileID: 2100000, guid: 8ab45af19e483bc4f8752f41a7b30d61, type: 2}
+  - damagedRock: {fileID: 2100000, guid: 71e0fad528bac2042a449a7caf9895f9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
